@@ -31,7 +31,7 @@ const clonObj = Object.assign({}, obj);
     clonObj.Desert.Hot = '떡볶이';    //새 오브젝트에서는 Desert 객체안의 Hot 속성 값을 '떡볶이'로 변경한다.
     delete clonObj.Delievery.Asia.Japan; //새 오브젝트에서는 Delievery 객체안의 Asia 객체안의 Japan 속성을 삭제한다.
 
-    obj.Homefood.Maindish = '된장찌개' //원래 오브젝트의 Homefood 객체안의 Maindish 속성 값을 '된장찌개'로 변경한다.
-
+    obj.Homefood.Maindish = '해물전골' //원래 오브젝트의 Homefood 객체안의 Maindish 속성 값을 '된장찌개'로 변경한다.
+    obj.Family push('Grandma');
 
 
