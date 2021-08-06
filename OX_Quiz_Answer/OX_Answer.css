@@ -1,0 +1,63 @@
+body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border:1px solid gray; */
+    box-sizing: border-box;
+    
+}
+
+div {
+    padding: 15px;
+    /* border:1px solid red; */
+}
+#container {
+    margin:30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /* border:1px solid green; */
+    width: 60rem;
+    height: 100%;
+}
+
+#top {
+    min-width: 300px;
+    /* min-height: 400px; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height:100%;
+}
+
+.OX {
+    flex: 1 1 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.O {
+    cursor: grab;
+    width: 10rem;
+    height: 10rem;
+}
+.X {
+    cursor: grab;
+    width: 10rem;
+    height: 10rem;
+}
+
+#bottom {
+    min-height: 50px;
+    background-color: rgba(183, 218, 218, 0.541);
+    border-radius: 4rem;
+    display: flex;
+    align-items: center;  /* y축 정렬 */
+    justify-content: center; /* x축 정렬 */
+    font-family: '맑은 고딕';
+    font-size: 1.5em;
+}
